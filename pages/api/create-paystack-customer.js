@@ -8,7 +8,7 @@ const handler = async (req, res) => {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            email: req.body.record.email,
+            email: req.body.record.id,
             first_name: req.body.record.id,
             last_name: req.body.record.id
 
